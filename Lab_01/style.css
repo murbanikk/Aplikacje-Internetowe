@@ -1,16 +1,114 @@
-html {
-      background-color: #DDBEAA;
-      height: 100vh;
+/* Wygląd całej strony */
+
+* {
+  box-sizing: border-box;
 }
 
 body {
-      height: 100vh;
-      margin: 0;
+  margin: 0;
+  padding: 30px;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
 }
 
-.main-container {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+/* Główny kontener strony */
+
+.page {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+/* Ćwiczenia na stronie głównej */
+
+li {
+  margin: 12px 0;
+}
+
+.link-1 {
+  color: #c026d3;
+}
+
+.link-2 {
+  color: #15803d;
+}
+
+.link-3 {
+  color: #2563eb;
+}
+
+/* Ćwiczenie 1: Artykuł */
+
+.author {
+  color: #b91c1c;
+  font-weight: bold;
+}
+
+.article-image {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+/* Ćwiczenie 2: Tabela */
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.products-table th,
+.products-table td {
+  border: 1px solid #475569;
+  padding: 10px;
+  text-align: left;
+}
+
+.products-table th {
+  background-color: #e2e8f0;
+}
+
+/* Ćwiczenie 3: Kwadraty */
+
+.square-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  flex: 0 0 100px;
+}
+
+.color-1 {
+  background-color: #ef4444;
+}
+
+.color-2 {
+  background-color: #3b82f6;
+}
+
+.color-3 {
+  background-color: #22c55e;
+}
+
+.color-4 {
+  background-color: #f59e0b;
+}
+
+.square-image {
+  object-fit: cover;
+  display: block;
 }
